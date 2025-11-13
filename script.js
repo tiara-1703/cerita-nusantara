@@ -159,7 +159,7 @@ Namun, Putri Junjung Buih juga dikenal rendah hati dan sering mengingatkan raja 
 
 "Kalimantan Utara": {
   judul: "Legenda Gunung Putih",
-  gambar: "gunung_putih.jpg",
+  gambar: "gunung_putih.jpeg",
   isi: `Di wilayah Tanjung Palas, Kabupaten Bulungan, terdapat sebuah bukit batu kapur berwarna putih yang disebut Gunung Putih.
 Dari kejauhan, gunung ini tampak berkilau seperti marmer, dan masyarakat setempat meyakini tempat itu bukan sekadar batu biasa, melainkan tempat suci yang dijaga oleh makhluk halus penunggu alam.
 

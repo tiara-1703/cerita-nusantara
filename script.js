@@ -159,7 +159,7 @@ Namun, Putri Junjung Buih juga dikenal rendah hati dan sering mengingatkan raja 
 
 "Kalimantan Utara": {
   judul: "Legenda Gunung Putih",
-  gambar: "gunung_putih.jpeg",
+  gambar: "gunung_putih.jpg",
   isi: `Di wilayah Tanjung Palas, Kabupaten Bulungan, terdapat sebuah bukit batu kapur berwarna putih yang disebut Gunung Putih.
 Dari kejauhan, gunung ini tampak berkilau seperti marmer, dan masyarakat setempat meyakini tempat itu bukan sekadar batu biasa, melainkan tempat suci yang dijaga oleh makhluk halus penunggu alam.
 
@@ -172,7 +172,7 @@ Sejak saat itu, masyarakat Bulungan berjanji menjaga Gunung Putih sebagai tempat
 
   "Sulawesi Selatan": {
   judul: "Legenda Sawerigading",
-  gambar: "sawerigading_webp",
+  gambar: "sawerigading.jpg",
   isi: `Legenda Sawerigading berasal dari Kerajaan Luwu, Sulawesi Selatan, dan merupakan salah satu kisah paling terkenal dalam epos La Galigo — karya sastra klasik Bugis yang sangat dihormati.  
 Sawerigading adalah putra dari raja Luwu, Batara Lattu, dan permaisuri We Datu Sengngeng. Sejak kecil, ia dikenal gagah, berani, dan sakti mandraguna. Tidak hanya kuat dalam perang, ia juga bijak dalam memimpin.
 

@@ -147,7 +147,7 @@ Dari mata batu itu mengalir air jernih yang tak pernah berhenti, seolah-olah bat
 
 "Kalimantan Selatan": {
   judul: "Legenda Putri Junjung Buih",
-  gambar: "junjung_buih.jpg",
+  gambar: "junjung_buih.jpeg",
   isi: `Pada zaman dahulu, di wilayah Kerajaan Negara Dipa di Kalimantan Selatan, hiduplah seorang raja bernama Maharaja Suryanata. Ia memerintah dengan adil dan bijaksana, tetapi lama tidak memiliki keturunan. Sang raja dan rakyatnya pun berdoa kepada para dewa agar diberikan seorang putri yang kelak membawa kesejahteraan bagi negeri.
 
 Suatu hari, ketika matahari terbit di tepi Sungai Nagara, para pengawal istana melihat buih-buih air yang berputar di permukaan sungai. Dari tengah buih itu muncul cahaya lembut berwarna keemasan, dan perlahan tampak sesosok bayi perempuan cantik mengapung di atas buih tersebut. Bayi itu diangkat dengan hati-hati dan dibawa ke istana. Raja yang mendengar kabar itu merasa gembira dan menamainya **Putri Junjung Buih**, karena ia datang dari buih sungai yang suci.

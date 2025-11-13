@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Ornamen batik halus di background */
+/* Ornamen batik lembut di seluruh background */
 body::before {
   content: "";
   position: fixed;
@@ -18,11 +18,30 @@ body::before {
   background-image: url('https://i.ibb.co/6wC4R5C/batik-pattern.png');
   background-size: 250px;
   background-repeat: repeat;
-  opacity: 0.15;
-  z-index: -1;
+  opacity: 0.12;
+  z-index: -2;
 }
 
-/* Header bergaya batik klasik */
+/* Ornamen batik besar di sisi kiri dan kanan layar */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    url('https://i.ibb.co/jz9b6nV/batik-side-left.png'),
+    url('https://i.ibb.co/jz9b6nV/batik-side-left.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left center, right center;
+  background-size: 150px auto, 150px auto;
+  opacity: 0.25;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Header */
 header {
   background: linear-gradient(90deg, #8b2e07, #d36b1a);
   color: #fff7e6;
@@ -109,16 +128,30 @@ button:hover {
   border: 4px double #d4a373;
   position: relative;
   animation: fadeInUp 1s ease-out;
+  overflow: hidden;
 }
 
+/* Motif batik besar di belakang cerita */
 .cerita::before {
   content: "";
   position: absolute;
-  top: -10px; left: -10px; right: -10px; bottom: -10px;
-  border: 2px dashed #e6b800;
-  border-radius: 25px;
-  z-index: -1;
-  opacity: 0.7;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('https://i.ibb.co/bXWkVnk/batik-big-pattern.png');
+  background-size: 420px;
+  background-repeat: repeat;
+  opacity: 0.09;
+  z-index: 0;
+}
+
+/* Emoji batik hiasan */
+.cerita::after {
+  content: "🟤🟠🟡🟤";
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 2em;
+  opacity: 0.25;
+  z-index: 0;
 }
 
 .cerita h2 {
@@ -126,20 +159,24 @@ button:hover {
   font-size: 1.8em;
   margin-bottom: 12px;
   text-shadow: 1px 1px 2px #ffebcc;
+  position: relative;
+  z-index: 1;
 }
 
 /* Foto agar tidak terpotong */
 .cerita img {
   width: 100%;
   height: auto;
-  max-height: 400px;
-  object-fit: contain; /* tidak terpotong */
+  max-height: 420px;
+  object-fit: contain;
   border-radius: 15px;
   margin: 12px 0;
   background-color: #fff;
   border: 3px solid #b36b00;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.4s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .cerita img:hover {
@@ -155,6 +192,8 @@ button:hover {
   background: rgba(255, 248, 240, 0.85);
   border-radius: 10px;
   border: 1px solid #f1d6aa;
+  position: relative;
+  z-index: 1;
 }
 
 /* Footer */
@@ -169,7 +208,7 @@ footer {
   box-shadow: 0 -4px 10px rgba(0,0,0,0.25);
 }
 
-/* Efek animasi halus */
+/* Efek animasi */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }

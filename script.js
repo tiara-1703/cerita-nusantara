@@ -5,7 +5,7 @@ document.getElementById("tampilkan").addEventListener("click", tampilkanCerita);
 const cerita = {
   "Jawa Barat": {
   judul: "Legenda Sangkuriang",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tangkuban_Perahu_Bandung.jpg",
+  gambar: "images/tangkuban_perahu.webp",
   isi: `Dahulu kala, di Jawa Barat hiduplah seorang wanita cantik bernama Dayang Sumbi. 
 Ia memiliki anak laki-laki bernama Sangkuriang yang gemar berburu di hutan. 
 Suatu hari, karena kesalahan kecil, Dayang Sumbi marah dan memukul Sangkuriang hingga anak itu pergi mengembara. 
@@ -21,7 +21,7 @@ Perahu itu kemudian berubah menjadi **Gunung Tangkuban Perahu** di Bandung.`
 
   "Jawa Tengah": {
     judul: "Legenda Roro Jonggrang",
-    gambar: "https://upload.wikimedia.org/wikipedia/commons/4/41/Prambanan_Temple.jpg",
+    gambar: "images/roro_jonggrang.jpg",
     isi: `Pada zaman dahulu kala, di Kerajaan Prambanan hiduplah seorang putri cantik bernama Roro Jonggrang.
 Ia adalah anak dari Raja Boko. Suatu hari, kerajaan diserang oleh Bandung Bondowoso, seorang pangeran sakti dari Pengging.
 Setelah menang, Bandung jatuh cinta pada Roro Jonggrang dan ingin menikahinya.
@@ -35,7 +35,7 @@ Sekarang arca itu dikenal sebagai Candi Roro Jonggrang di kompleks Candi Pramban
 
 "Jawa Timur": {
   judul: "Legenda Jaka Tarub",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Waterfall_Indonesia.jpg",
+  gambar: "images/jaka_tarub.jpg",
   isi: `Dahulu di sebuah desa di Jawa Timur, hiduplah seorang pemuda tampan bernama Jaka Tarub. 
 Ia sering berburu di hutan dan suatu hari melihat tujuh bidadari turun dari kayangan untuk mandi di sebuah telaga. 
 Jaka Tarub mencuri salah satu selendang milik bidadari bernama Nawang Wulan, sehingga ia tidak bisa kembali ke langit. 
@@ -47,7 +47,7 @@ Setelah rahasianya terbongkar, Nawang Wulan sedih dan kembali ke kayangan, menin
 
   "Bali": {
     judul: "Legenda Danau Batur",
-    gambar: "https://upload.wikimedia.org/wikipedia/commons/3/32/Mount_Batur_Bali.jpg",
+    gambar: "images/danau_toba.jpg",
     isi: `Dahulu kala, di Bali hidup seorang raksasa wanita bernama Kebo Iwa.
 Ia sangat kuat dan suka membantu penduduk, tetapi juga sering makan banyak karena tubuhnya besar.
 Suatu hari, raja dari kerajaan lain ingin menaklukkan Bali dan menipu Kebo Iwa dengan pura-pura membangun sumur besar.
@@ -59,7 +59,7 @@ Gunung di dekatnya disebut Gunung Batur.`
 
   "Sumatera Barat": {
     judul: "Legenda Malin Kundang",
-    gambar: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Malin_Kundang_stone.jpg",
+    gambar: "images/malin_kundang.jpg",
     isi: `Dahulu di pantai Air Manis, Padang, hiduplah seorang ibu dan anak bernama Malin Kundang.
 Mereka miskin tetapi saling menyayangi. Malin merantau ke kota dan berhasil menjadi pedagang kaya.
 
@@ -70,7 +70,7 @@ Tubuhnya berubah menjadi batu di tepi pantai sebagai hukuman atas durhakanya.`
 
 "Sumatera Utara": {
   judul: "Legenda Danau Toba",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Danau_Toba_dari_Samosir.jpg",
+  gambar: "images/danau_toba.jpg",
   isi: `Dahulu di Sumatera Utara, hiduplah seorang pemuda miskin yang hidup dari hasil memancing. 
 Suatu hari ia menangkap seekor ikan emas ajaib yang berubah menjadi wanita cantik. 
 Wanita itu mengaku berasal dari kayangan dan bersedia menikah dengannya dengan satu syarat — asal-usulnya tidak boleh diungkap kepada siapa pun. 
@@ -85,7 +85,7 @@ Tak lama kemudian air meluap dan menenggelamkan desa, membentuk danau besar yang
 
 "Sumatera Selatan": {
   judul: "Legenda Putri Kemuning",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ampera_Bridge.jpg",
+  gambar: "images/kemuning.jpg",
   isi: `Dahulu di Sumatera Selatan, hiduplah seorang putri cantik bernama Putri Kemuning. 
 Ia terkenal sangat baik hati, ramah kepada rakyat, dan gemar menolong siapa saja yang membutuhkan. 
 Karena sifatnya itu, rakyat sangat menyayanginya, tetapi ada juga orang-orang iri yang ingin mencelakainya. 
@@ -100,7 +100,7 @@ Bunga itu dinamakan **bunga kemuning**, sebagai lambang **kebaikan hati, kesetia
 
 "Lampung": {
   judul: "Legenda Putri Ulung",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pahawang_Island_Lampung.jpg",
+  gambar: "images/pahawan_lampung.jpg",
   isi: `Di tanah Lampung yang subur, hiduplah seorang putri jelita bernama Putri Ulung. 
 Ia adalah anak raja yang terkenal lembut, bijak, dan dicintai rakyat. 
 Suatu hari, sang raja berniat menikahkannya dengan seorang bangsawan kaya dari kerajaan tetangga. 
@@ -113,7 +113,7 @@ Sejak saat itu, rakyat percaya bunga itu adalah jelmaan Putri Ulung — simbol *
 
   "Kalimantan Timur": {
     judul: "Legenda Danau Lipan",
-    gambar: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Danau_Lipan_Tenggarong.jpg",
+    gambar: "images/danau_lipan.jpg",
     isi: `Konon di Kalimantan Timur ada desa makmur yang penduduknya sombong dan serakah.
 Suatu hari datang seorang kakek tua meminta makanan, tetapi semua menolak kecuali seorang gadis baik hati.
 
@@ -123,7 +123,7 @@ Hanya rumah gadis baik itu yang selamat. Danau itu kemudian disebut Danau Lipan.
 
 "Kalimantan Tengah": {
   judul: "Legenda Nyai Undang",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Kalimantan_Tengah_Landscape.jpg",
+  gambar: "images/nyai_undang.jpg",
   isi: `Dahulu kala di tepi Sungai Barito hiduplah seorang wanita sakti bernama Nyai Undang.
 Ia dikenal bijak dan menolong siapa pun yang membutuhkan, terutama saat sungai meluap atau kekeringan datang.
 Nyai Undang selalu mengingatkan agar manusia tidak serakah dan menjaga alam sekitar.
@@ -132,7 +132,7 @@ Setelah wafat, rakyat percaya arwahnya tetap menjaga ketenangan Sungai Barito, s
 
 "Kalimantan Barat": {
   judul: "Legenda Batu Menangis",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/4/44/Kapuas_River_Pontianak.jpg",
+  gambar: "images/batu_menangis.jpg",
   isi: `Dahulu kala, di sebuah desa di perbukitan dekat Sungai Kapuas, hiduplah seorang janda miskin bersama anak perempuannya yang bernama Darmi. Meskipun hidup sederhana, sang ibu sangat menyayangi Darmi dan berusaha keras memenuhi kebutuhan mereka dengan bekerja di ladang setiap hari.
 
 Darmi tumbuh menjadi gadis cantik rupawan, tetapi sayangnya ia juga menjadi sombong dan malu pada keadaan ibunya yang miskin. Ia selalu mengeluh dan ingin hidup mewah seperti orang-orang di kota. Sang ibu tetap sabar dan berharap suatu hari anaknya akan berubah.
@@ -147,7 +147,7 @@ Dari mata batu itu mengalir air jernih yang tak pernah berhenti, seolah-olah bat
 
 "Kalimantan Selatan": {
   judul: "Legenda Putri Junjung Buih",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Banjar_traditional_house.jpg",
+  gambar: "images/jujung_buih.jpg",
   isi: `Pada zaman dahulu, di wilayah Kerajaan Negara Dipa di Kalimantan Selatan, hiduplah seorang raja bernama Maharaja Suryanata. Ia memerintah dengan adil dan bijaksana, tetapi lama tidak memiliki keturunan. Sang raja dan rakyatnya pun berdoa kepada para dewa agar diberikan seorang putri yang kelak membawa kesejahteraan bagi negeri.
 
 Suatu hari, ketika matahari terbit di tepi Sungai Nagara, para pengawal istana melihat buih-buih air yang berputar di permukaan sungai. Dari tengah buih itu muncul cahaya lembut berwarna keemasan, dan perlahan tampak sesosok bayi perempuan cantik mengapung di atas buih tersebut. Bayi itu diangkat dengan hati-hati dan dibawa ke istana. Raja yang mendengar kabar itu merasa gembira dan menamainya **Putri Junjung Buih**, karena ia datang dari buih sungai yang suci.
@@ -159,7 +159,7 @@ Namun, Putri Junjung Buih juga dikenal rendah hati dan sering mengingatkan raja 
 
 "Kalimantan Utara": {
   judul: "Legenda Gunung Putih",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gunung_Putih_Tanjung_Palang.jpg",
+  gambar: "images/gunung_putih.jpg",
   isi: `Di wilayah Tanjung Palas, Kabupaten Bulungan, terdapat sebuah bukit batu kapur berwarna putih yang disebut Gunung Putih.
 Dari kejauhan, gunung ini tampak berkilau seperti marmer, dan masyarakat setempat meyakini tempat itu bukan sekadar batu biasa, melainkan tempat suci yang dijaga oleh makhluk halus penunggu alam.
 
@@ -172,7 +172,7 @@ Sejak saat itu, masyarakat Bulungan berjanji menjaga Gunung Putih sebagai tempat
 
   "Sulawesi Selatan": {
   judul: "Legenda Sawerigading",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/5/55/Toraja_traditional_house.jpg",
+  gambar: "images/saweringading.jpg",
   isi: `Legenda Sawerigading berasal dari Kerajaan Luwu, Sulawesi Selatan, dan merupakan salah satu kisah paling terkenal dalam epos La Galigo — karya sastra klasik Bugis yang sangat dihormati.  
 Sawerigading adalah putra dari raja Luwu, Batara Lattu, dan permaisuri We Datu Sengngeng. Sejak kecil, ia dikenal gagah, berani, dan sakti mandraguna. Tidak hanya kuat dalam perang, ia juga bijak dalam memimpin.
 
@@ -191,7 +191,7 @@ Legenda ini hingga kini dianggap sebagai warisan luhur masyarakat Bugis-Makassar
 
 "Sulawesi Utara": {
   judul: "Legenda Toar dan Lumimuut",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Manado_Bay.jpg",
+  gambar: "images/pulau_lumimuut.webp",
   isi: `Legenda Toar dan Lumimuut berasal dari tanah Minahasa, Sulawesi Utara, dan dianggap sebagai asal-usul manusia pertama di wilayah itu. 
 Menurut cerita rakyat, Lumimuut diciptakan oleh dewa Mahatalla, penguasa langit dan bumi, dari tanah liat yang dicampur dengan sinar matahari. 
 Ia adalah wanita cantik, baik hati, dan bijaksana. Karena hidup seorang diri, Mahatalla mengutus angin utara untuk meniupkan kehidupan baru baginya — 
@@ -209,7 +209,7 @@ tetapi juga simbol tentang pentingnya menjaga kesucian, menghormati asal-usul, d
 
 "Sulawesi Tengah": {
   judul: "Legenda La Totombatu",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Palu_Bridge.jpg",
+  gambar: "images/jembatan_palu.jpg",
   isi: `Legenda La Totombatu berasal dari daerah Lore, Sulawesi Tengah. 
 Dahulu kala, wilayah ini sering diganggu oleh makhluk buas dan raksasa pemakan manusia yang menebar ketakutan di seluruh desa. 
 Di tengah kekacauan itu, lahirlah seorang pemuda sakti bernama La Totombatu, 
@@ -228,7 +228,7 @@ Legenda ini menjadi simbol keberanian, ketulusan hati, dan tanggung jawab seoran
 
 "Sulawesi Barat": {
   judul: "Legenda Simbolangi",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Mamuju_Beach.jpg",
+  gambar: "images/pantai_manakara.jpg",
   isi: `Legenda Simbolangi berasal dari daerah Mamuju, Sulawesi Barat. 
 Dikisahkan pada zaman dahulu, di sebuah kerajaan pesisir yang makmur, hidup seorang putri cantik bernama Simbolangi. 
 Ia dikenal baik hati, lembut, dan sangat peduli pada rakyatnya. Namun suatu waktu, kerajaan itu dilanda kekeringan panjang. 
@@ -248,7 +248,7 @@ Legenda ini mengajarkan tentang keikhlasan, pengorbanan, dan kasih sayang seoran
 
 "Sulawesi Tenggara": {
   judul: "Legenda Sungai Tamborasi",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/8/89/Tamborasi_River_Kolaka.jpg",
+  gambar: "images/sungai_tamborasi.jpg",
   isi: `Legenda Sungai Tamborasi berasal dari daerah Kolaka, Sulawesi Tenggara. 
 Sungai ini terkenal karena keunikannya — panjangnya hanya sekitar 20 meter, namun airnya sangat jernih dan sejuk. 
 Masyarakat percaya sungai ini bukan sungai biasa, melainkan tempat yang penuh berkah dan memiliki kisah sedih di balik keindahannya.
@@ -270,7 +270,7 @@ Legenda ini mengajarkan tentang cinta kasih, kesabaran dalam menerima takdir, da
 
 "Gorontalo": {
   judul: "Legenda Raja Walanga",
-  gambar: "https://upload.wikimedia.org/wikipedia/commons/6/69/Gorontalo_City.jpg",
+  gambar: "images/kota_gorontalo.jpg",
   isi: `Legenda Raja Walanga berasal dari tanah Gorontalo dan telah diceritakan turun-temurun oleh masyarakat setempat. 
 Walanga dikenal sebagai seorang raja bijaksana yang memimpin kerajaannya dengan adil, jujur, dan penuh kasih kepada rakyatnya. 
 Ia selalu menekankan pentingnya kejujuran dan kerja keras sebagai dasar kehidupan bermasyarakat.

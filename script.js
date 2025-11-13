@@ -17,7 +17,7 @@ Sangkuriang harus membuat danau serta perahu besar dalam satu malam.
 Dengan kesaktiannya, Sangkuriang hampir berhasil, namun Dayang Sumbi menipu dengan membuat fajar seolah telah tiba. 
 Marah karena gagal, Sangkuriang menendang perahunya hingga terbalik. 
 Perahu itu kemudian berubah menjadi **Gunung Tangkuban Perahu** di Bandung.`
-}
+},
 
   "Jawa Tengah": {
     judul: "Legenda Roro Jonggrang",

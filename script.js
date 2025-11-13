@@ -47,7 +47,7 @@ Setelah rahasianya terbongkar, Nawang Wulan sedih dan kembali ke kayangan, menin
 
   "Bali": {
     judul: "Legenda Danau Batur",
-    gambar: "danau_toba.jpg",
+    gambar: "danau_batur.png",
     isi: `Dahulu kala, di Bali hidup seorang raksasa wanita bernama Kebo Iwa.
 Ia sangat kuat dan suka membantu penduduk, tetapi juga sering makan banyak karena tubuhnya besar.
 Suatu hari, raja dari kerajaan lain ingin menaklukkan Bali dan menipu Kebo Iwa dengan pura-pura membangun sumur besar.
@@ -100,7 +100,7 @@ Bunga itu dinamakan **bunga kemuning**, sebagai lambang **kebaikan hati, kesetia
 
 "Lampung": {
   judul: "Legenda Putri Ulung",
-  gambar: "pahawan_lampung.jpg",
+  gambar: "pahawan_lampung.jpeg",
   isi: `Di tanah Lampung yang subur, hiduplah seorang putri jelita bernama Putri Ulung. 
 Ia adalah anak raja yang terkenal lembut, bijak, dan dicintai rakyat. 
 Suatu hari, sang raja berniat menikahkannya dengan seorang bangsawan kaya dari kerajaan tetangga. 

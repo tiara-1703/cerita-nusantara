@@ -9,20 +9,21 @@ body {
   overflow-x: hidden;
 }
 
-/* Ornamen batik lembut di seluruh background */
+/* Motif batik utama di background */
 body::before {
   content: "";
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
   background-image: url('https://i.ibb.co/6wC4R5C/batik-pattern.png');
-  background-size: 250px;
+  background-size: 220px;
   background-repeat: repeat;
-  opacity: 0.12;
+  opacity: 0.22; /* lebih menonjol */
   z-index: -2;
+  filter: contrast(1.2) saturate(1.3);
 }
 
-/* Ornamen batik besar di sisi kiri dan kanan layar */
+/* Ornamen batik di sisi kiri dan kanan layar */
 body::after {
   content: "";
   position: fixed;
@@ -35,9 +36,10 @@ body::after {
     url('https://i.ibb.co/jz9b6nV/batik-side-left.png');
   background-repeat: no-repeat, no-repeat;
   background-position: left center, right center;
-  background-size: 150px auto, 150px auto;
-  opacity: 0.25;
+  background-size: 190px auto, 190px auto;
+  opacity: 0.35; /* lebih tampak tapi tetap lembut */
   z-index: -1;
+  filter: saturate(1.4) brightness(1.1);
   pointer-events: none;
 }
 
@@ -131,27 +133,51 @@ button:hover {
   overflow: hidden;
 }
 
-/* Motif batik besar di belakang cerita */
+/* Pola batik besar di belakang isi cerita */
 .cerita::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background-image: url('https://i.ibb.co/bXWkVnk/batik-big-pattern.png');
-  background-size: 420px;
+  background-size: 300px;
   background-repeat: repeat;
-  opacity: 0.09;
+  opacity: 0.15; /* lebih jelas */
   z-index: 0;
+  filter: saturate(1.2) contrast(1.2);
 }
 
-/* Emoji batik hiasan */
-.cerita::after {
-  content: "🟤🟠🟡🟤";
+/* Motif batik etnik di area teks */
+.cerita p {
+  position: relative;
+  text-align: justify;
+  line-height: 1.7;
+  color: #3b2710;
+  font-size: 1.05em;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(255, 250, 235, 0.92);
+  border: 2px solid #d4a373;
+  margin-top: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.08);
+}
+
+/* Tambahan motif etnik di dalam teks */
+.cerita p::before {
+  content: "";
   position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 2em;
-  opacity: 0.25;
+  inset: 0;
+  background-image: url('https://i.ibb.co/SNKxS5t/ethnic-batik-texture.png');
+  background-size: 200px;
+  background-repeat: repeat;
+  opacity: 0.18; /* halus, tapi terlihat */
   z-index: 0;
+  mix-blend-mode: multiply;
+}
+
+.cerita p span {
+  position: relative;
+  z-index: 1;
 }
 
 .cerita h2 {
@@ -181,19 +207,6 @@ button:hover {
 
 .cerita img:hover {
   transform: scale(1.03);
-}
-
-.cerita p {
-  text-align: justify;
-  line-height: 1.7;
-  color: #3b2710;
-  font-size: 1.05em;
-  padding: 10px;
-  background: rgba(255, 248, 240, 0.85);
-  border-radius: 10px;
-  border: 1px solid #f1d6aa;
-  position: relative;
-  z-index: 1;
 }
 
 /* Footer */

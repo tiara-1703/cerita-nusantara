@@ -100,7 +100,7 @@ Bunga itu dinamakan **bunga kemuning**, sebagai lambang **kebaikan hati, kesetia
 
 "Lampung": {
   judul: "Legenda Putri Ulung",
-  gambar: "pahawan_lampung.jpeg",
+  gambar: "phwng_beach.jpeg",
   isi: `Di tanah Lampung yang subur, hiduplah seorang putri jelita bernama Putri Ulung. 
 Ia adalah anak raja yang terkenal lembut, bijak, dan dicintai rakyat. 
 Suatu hari, sang raja berniat menikahkannya dengan seorang bangsawan kaya dari kerajaan tetangga. 
@@ -172,7 +172,7 @@ Sejak saat itu, masyarakat Bulungan berjanji menjaga Gunung Putih sebagai tempat
 
   "Sulawesi Selatan": {
   judul: "Legenda Sawerigading",
-  gambar: "saweringading.jpg",
+  gambar: "gading_webp",
   isi: `Legenda Sawerigading berasal dari Kerajaan Luwu, Sulawesi Selatan, dan merupakan salah satu kisah paling terkenal dalam epos La Galigo — karya sastra klasik Bugis yang sangat dihormati.  
 Sawerigading adalah putra dari raja Luwu, Batara Lattu, dan permaisuri We Datu Sengngeng. Sejak kecil, ia dikenal gagah, berani, dan sakti mandraguna. Tidak hanya kuat dalam perang, ia juga bijak dalam memimpin.
 

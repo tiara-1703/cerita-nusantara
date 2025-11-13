@@ -288,7 +288,7 @@ Sejak saat itu, nama Walanga dikenang sebagai simbol pemimpin yang tidak hanya t
 tetapi juga penuh kebijaksanaan dan kasih sayang. 
 Masyarakat Gorontalo percaya bahwa selama nilai-nilai yang diajarkan Raja Walanga dijaga — kejujuran, gotong royong, dan keikhlasan — 
 tanah Gorontalo akan selalu diberkahi kedamaian dan kemakmuran.`
- }
+ },
 };
 
 // Fungsi untuk menampilkan cerita

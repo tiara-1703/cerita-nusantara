@@ -172,7 +172,7 @@ Sejak saat itu, masyarakat Bulungan berjanji menjaga Gunung Putih sebagai tempat
 
   "Sulawesi Selatan": {
   judul: "Legenda Sawerigading",
-  gambar: "gading_webp",
+  gambar: "sawerigading_webp",
   isi: `Legenda Sawerigading berasal dari Kerajaan Luwu, Sulawesi Selatan, dan merupakan salah satu kisah paling terkenal dalam epos La Galigo — karya sastra klasik Bugis yang sangat dihormati.  
 Sawerigading adalah putra dari raja Luwu, Batara Lattu, dan permaisuri We Datu Sengngeng. Sejak kecil, ia dikenal gagah, berani, dan sakti mandraguna. Tidak hanya kuat dalam perang, ia juga bijak dalam memimpin.
 

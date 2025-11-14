@@ -658,7 +658,7 @@ Ketulusan cinta akan hidup selamanya, meski raga telah tiada.`
     },
     {
       judul: "Legenda Dewi Kilisuci",
-      gambar: "tangkuban_perahu2.jpg",
+      gambar: "kilisuci_dewi.jpg",
       isi: `Dahulu kala, di sebuah kerajaan kecil di Jawa Timur, hiduplah seorang putri yang sangat cantik dan baik hati bernama Dewi Kilisuci. Ia terkenal bukan hanya karena kecantikannya, tetapi juga karena hatinya yang suci dan bijaksana.
 
 Setiap hari, Dewi Kilisuci membantu rakyatnya. Ia sering menyusuri desa untuk menolong orang sakit, membagikan makanan kepada yang lapar, dan memberikan nasihat bijak kepada siapa saja yang membutuhkannya. Semua orang mencintai Dewi Kilisuci karena kebaikan hatinya.

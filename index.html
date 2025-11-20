@@ -6,20 +6,11 @@
   <title>Cerita Nusantara</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <h1>📖 Cerita Nusantara</h1>
+  <p>Pilih provinsi untuk membaca cerita rakyat:</p>
 
-  <header>
-    <h1>📖 Cerita Nusantara</h1>
-    <p>Pilih provinsi dan baca cerita rakyat dalam tampilan seperti buku</p>
-  </header>
-
-  <main>
-
-    <!-- PILIH PROVINSI -->
-    <section class="pilihan">
-      <label for="provinsi">Pilih Provinsi:</label>
-      <select id="provinsi">
+   <select id="provinsi">
         <option value="">-- Pilih Provinsi --</option>
         <option value="Jawa Barat">Jawa Barat</option>
         <option value="Jawa Tengah">Jawa Tengah</option>
@@ -42,23 +33,11 @@
         <option value="Gorontalo">Gorontalo</option>
       </section>
 
-    <!-- TEMPAT 3 CERITA -->
-    <section id="daftar-cerita" class="daftar-cerita"></section>
+  <button id="tampilkan">Tampilkan Cerita</button>
 
-    <!-- VIEW BUKU -->
-    <section id="book-view" class="book hidden">
-      <div class="book-page">
-        <div class="page-content" id="page-left"></div>
-        <button class="flip-btn" id="prev-page">◀</button>
-      </div>
-
-      <div class="book-page">
-        <button class="flip-btn" id="next-page">▶</button>
-        <div class="page-content" id="page-right"></div>
-      </div>
-    </section>
-
-  </main>
+  <h2 id="judul-cerita"></h2>
+  <img id="gambar-cerita" src="" alt="" width="300">
+  <p id="isi-cerita"></p>
 
   <script src="script.js"></script>
 </body>

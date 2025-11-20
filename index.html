@@ -6,16 +6,19 @@
   <title>Cerita Nusantara</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header>
     <h1>📖 Cerita Nusantara</h1>
-    <p>Jelajahi kisah rakyat dari berbagai daerah di Indonesia</p>
+    <p>Pilih provinsi dan baca cerita rakyat dalam tampilan seperti buku</p>
   </header>
 
   <main>
+
+    <!-- PILIH PROVINSI -->
     <section class="pilihan">
-      <label for="provinsi">Pilih Daerah:</label>
+      <label for="provinsi">Pilih Provinsi:</label>
       <select id="provinsi">
         <option value="">-- Pilih Provinsi --</option>
         <option value="Jawa Barat">Jawa Barat</option>
@@ -37,43 +40,25 @@
         <option value="Sulawesi Barat">Sulawesi Barat</option>
         <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
         <option value="Gorontalo">Gorontalo</option>
-      </select>
+      </section>
 
-      <button id="tampilkan">Tampilkan Cerita</button>
+    <!-- TEMPAT 3 CERITA -->
+    <section id="daftar-cerita" class="daftar-cerita"></section>
+
+    <!-- VIEW BUKU -->
+    <section id="book-view" class="book hidden">
+      <div class="book-page">
+        <div class="page-content" id="page-left"></div>
+        <button class="flip-btn" id="prev-page">◀</button>
+      </div>
+
+      <div class="book-page">
+        <button class="flip-btn" id="next-page">▶</button>
+        <div class="page-content" id="page-right"></div>
+      </div>
     </section>
 
-    <!-- ========================= -->
-    <!--   CONTAINER 3 CERITA     -->
-    <!-- ========================= -->
-    <section id="cerita-container" class="cerita-container">
-
-      <!-- Cerita ke-1 -->
-      <div class="cerita">
-        <h2 class="judul-cerita"></h2>
-        <img class="gambar-cerita" alt="">
-        <p class="isi-cerita"></p>
-      </div>
-
-      <!-- Cerita ke-2 -->
-      <div class="cerita">
-        <h2 class="judul-cerita"></h2>
-        <img class="gambar-cerita" alt="">
-        <p class="isi-cerita"></p>
-      </div>
-
-      <!-- Cerita ke-3 -->
-      <div class="cerita">
-        <h2 class="judul-cerita"></h2>
-        <img class="gambar-cerita" alt="">
-        <p class="isi-cerita"></p>
-      </div>
-
-    </section>
   </main>
-
-  <footer>
-    <p>© 2025 Cerita Nusantara | Belajar Budaya Indonesia</p>
-  </footer>
 
   <script src="script.js"></script>
 </body>

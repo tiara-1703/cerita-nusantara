@@ -2599,25 +2599,59 @@ Batu Bada kini menjadi sebuah tempat yang dikenal oleh masyarakat Gorontalo seba
   
 };
 
-// Fungsi untuk menampilkan cerita acak dari provinsi
-function tampilkanCerita() {
-  const provinsi = document.getElementById("provinsi").value;
-  const judulElem = document.getElementById("judul-cerita");
-  const gambarElem = document.getElementById("gambar-cerita");
-  const isiElem = document.getElementById("isi-cerita");
+// ==========================
+// TAMPILKAN 3 CERITA
+// ==========================
+document.getElementById("btn-provinsi").addEventListener("click", () => {
+  const prov = document.getElementById("provinsi").value;
+  const daftar = document.getElementById("daftar-cerita");
 
-  if (cerita[provinsi] && cerita[provinsi].length > 0) {
-    // Pilih cerita acak dari array
-    const randomIndex = Math.floor(Math.random() * cerita[provinsi].length);
-    const selectedCerita = cerita[provinsi][randomIndex];
+  daftar.innerHTML = "";
+  document.getElementById("book-view").classList.add("hidden");
 
-    judulElem.textContent = selectedCerita.judul;
-    gambarElem.src = selectedCerita.gambar;
-    gambarElem.alt = selectedCerita.judul;
-    isiElem.textContent = selectedCerita.isi;
-  } else {
-    judulElem.textContent = "Cerita belum tersedia 😅";
-    gambarElem.src = "";
-    isiElem.textContent = "";
+  if (!ceritaData[prov]) {
+    daftar.innerHTML = "<p>Tidak ada cerita</p>";
+    return;
   }
+
+  ceritaData[prov].forEach((c, i) => {
+    daftar.innerHTML += `
+      <div class="cerita-card" onclick="bukaCerita('${prov}', ${i})">
+        <img src="${c.gambar}">
+        <h3>${c.judul}</h3>
+      </div>
+    `;
+  });
+});
+
+
+// ==========================
+// BUKA CERITA DALAM BOOK VIEW
+// ==========================
+let halaman = [];
+let posisi = 0;
+
+function bukaCerita(prov, index) {
+  halaman = ceritaData[prov][index].isi;
+  posisi = 0;
+
+  document.getElementById("daftar-cerita").innerHTML = "";
+  document.getElementById("book-view").classList.remove("hidden");
+
+  tampilHalaman();
 }
+
+function tampilHalaman() {
+  document.getElementById("page-left").innerText = halaman[posisi] || "";
+  document.getElementById("page-right").innerText = halaman[posisi + 1] || "";
+}
+
+document.getElementById("next-page").onclick = () => {
+  if (posisi < halaman.length - 2) posisi += 2;
+  tampilHalaman();
+};
+
+document.getElementById("prev-page").onclick = () => {
+  if (posisi > 0) posisi -= 2;
+  tampilHalaman();
+};

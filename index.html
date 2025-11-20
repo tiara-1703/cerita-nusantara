@@ -6,17 +6,16 @@
   <title>Cerita Nusantara</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
   <header>
     <h1>📖 Cerita Nusantara</h1>
     <p>Jelajahi kisah rakyat dari berbagai daerah di Indonesia</p>
   </header>
 
   <main>
-    <!-- PILIHAN PROVINSI -->
     <section class="pilihan">
-      <label for="provinsi"><i>📍</i>Pilih Daerah:</label>
+      <label for="provinsi">Pilih Daerah:</label>
       <select id="provinsi">
         <option value="">-- Pilih Provinsi --</option>
         <option value="Jawa Barat">Jawa Barat</option>
@@ -40,11 +39,36 @@
         <option value="Gorontalo">Gorontalo</option>
       </select>
 
-      <button id="tampilkan"><i>📖</i>Tampilkan Cerita</button>
+      <button id="tampilkan">Tampilkan Cerita</button>
     </section>
 
-    <!-- TEMPAT 3 CERITA MUNCUL OTOMATIS -->
-    <section id="cerita-container" class="cerita-container"></section>
+    <!-- ========================= -->
+    <!--   CONTAINER 3 CERITA     -->
+    <!-- ========================= -->
+    <section id="cerita-container" class="cerita-container">
+
+      <!-- Cerita ke-1 -->
+      <div class="cerita">
+        <h2 class="judul-cerita"></h2>
+        <img class="gambar-cerita" alt="">
+        <p class="isi-cerita"></p>
+      </div>
+
+      <!-- Cerita ke-2 -->
+      <div class="cerita">
+        <h2 class="judul-cerita"></h2>
+        <img class="gambar-cerita" alt="">
+        <p class="isi-cerita"></p>
+      </div>
+
+      <!-- Cerita ke-3 -->
+      <div class="cerita">
+        <h2 class="judul-cerita"></h2>
+        <img class="gambar-cerita" alt="">
+        <p class="isi-cerita"></p>
+      </div>
+
+    </section>
   </main>
 
   <footer>

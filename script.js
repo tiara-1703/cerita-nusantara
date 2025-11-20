@@ -183,7 +183,7 @@ Memaafkan adalah tanda hati yang besar.`
     },
     {
       judul: "Legenda Ciung Wanara",
-      gambar: "ciung_wanara.jpg",
+      gambar: "ciung_wanara.png",
       isi: `Dahulu kala, di tanah Sunda, berdirilah sebuah kerajaan besar bernama Kerajaan Galuh. Kerajaan itu diperintah oleh seorang raja bijaksana bernama Prabu Permana Di Kusumah. Sang raja memiliki dua orang permaisuri, yaitu Dewi Naganingrum dan Dewi Pangrenyep.
 
 Namun, dari kedua permaisuri itu, hanya Dewi Naganingrum yang sedang mengandung seorang anak, sementara Dewi Pangrenyep belum dikaruniai keturunan. Hal ini membuat Dewi Pangrenyep iri hati dan dengki kepada saingannya.
@@ -336,7 +336,7 @@ Kecantikan sejati bukan hanya dari rupa, tetapi juga dari ketulusan hati.`
     },
     {
       judul: "Legenda Dewi Sri",
-      gambar: "dewi_sri.jpg",
+      gambar: "dewi_sri.webp",
       isi: `Dahulu kala, di sebuah negeri yang makmur di tanah Jawa, hiduplah seorang raja bijaksana yang dicintai rakyatnya. Ia memimpin kerajaan dengan adil dan sejahtera. Namun, ada satu hal yang membuat sang raja bersedih — tanaman di kerajaan itu tidak mau tumbuh subur, dan rakyat sering kekurangan bahan makanan.
 Setiap tahun, hujan turun dengan teratur, tetapi padi di sawah tidak pernah berhasil dipanen dengan baik. Rakyat mulai gelisah dan memohon pada raja agar mencari jalan keluar.
 
@@ -595,7 +595,7 @@ Cinta sejati bukan tentang memiliki, tapi tentang menghargai dan percaya.`
     },
     {
       judul: "Legenda Roro Mendut",
-      gambar: "roro_mendut.jpg",
+      gambar: "roro_mendut.webp",
       isi: `Dahulu kala, di tanah Jawa, hiduplah seorang gadis cantik bernama Roro Mendut. Ia berasal dari Kerajaan Pajang, putri seorang bangsawan yang gagah berani. Sejak kecil, Roro Mendut terkenal karena kecantikannya yang tiada tanding, serta sikapnya yang sopan dan berani.
 
 Namun, nasib malang menimpanya ketika Kerajaan Pajang dikalahkan oleh Kerajaan Mataram yang dipimpin oleh Sultan Agung. Banyak rakyat Pajang yang ditawan, termasuk Roro Mendut. Para tawanan dibawa ke Mataram untuk dijadikan abdi istana.
@@ -745,7 +745,7 @@ Keserakahan dan kemarahan bisa membawa bencana.`
     },
     {
       judul: "Legenda Calon Arang",
-      gambar: "calon_arang.jpg",
+      gambar: "calon_arang.webp",
       isi: `Dahulu kala, di Bali, hiduplah seorang wanita bernama Calon Arang. Ia terkenal karena kecantikannya, kecerdasannya, tapi juga karena ilmu sihirnya yang sangat kuat. Suaminya telah meninggal, dan ia hidup sendirian bersama putrinya yang bernama Ratna.
 
 Calon Arang sering menggunakan ilmu sihirnya untuk menakut-nakuti orang, tetapi sebenarnya ia menyimpan dendam karena suaminya meninggal. Ia marah pada semua orang yang tidak menghormatinya dan merasa dunia tidak adil kepadanya.
@@ -1280,7 +1280,7 @@ Hingga kini, legenda Bujang Kurap menjadi pengingat bahwa setiap orang, betapa p
   "Lampung": [
     {
       judul: "Legenda Putri Ulung",
-      gambar: "putri_ulung.jpeg",
+      gambar: "putri_ulung.jpg",
       isi: `Di sebuah dusun tua di wilayah Way Sekampung, Lampung, hiduplah seorang gadis bernama Putri Ulung. Ia dijuluki demikian bukan karena keturunan bangsawan, tetapi karena ia adalah gadis paling unggul di antara para gadis dusun—cantik, halus hati, pekerja keras, dan berani.
 
 Setiap pagi, Putri Ulung berjalan menuju mata air keramat di hulu sungai, membawa tempayan tanah liat di kepalanya. Mata air itu jernih bagai kaca, dijaga rindangnya pepohonan dan dipercaya sebagai tempat berdiamnya roh penjaga hutan.
@@ -1412,7 +1412,7 @@ Sementara patung Arga Wana masih berdiri di halaman istana yang ditinggalkan—m
     },
     {
       judul: "Legenda Sultan Domas",
-      gambar: "sultan_domas.jpg",
+      gambar: "sultan_domas.webp",
       isi: `Di sebuah gubuk kayu reyot di pinggir sungai di kota lama Sukadana, Lampung, tinggal seorang pemuda bernama Domas. Orang tuanya telah tiada dan ia hidup sendiri. Karena kemiskinan dan nasibnya yang malang, warga desa sering mengejek:
 
 “Lihat Domas itu, anak yatim tak punya apa‑apa!”
@@ -1507,7 +1507,7 @@ Alam dan kekuatan leluhur bisa berpihak pada manusia yang bijaksana dan punya ha
     },
     {
       judul: "Legenda Pesut Mahakam",
-      gambar: "pesut_mahakam.jpg",
+      gambar: "pesut_mahakam.png",
       isi: `Di tepian Sungai Mahakam, di sebuah dusun kecil yang sunyi, tinggal seorang bapak bernama Pak Pung bersama dua anaknya—seorang kakak laki‑laki dan adik perempuan. Mereka hidup sederhana: mencari ikan, menanam sayur di kebun pinggir sungai, dan menjalani hari dengan rukun. 
 
 Suatu waktu, ibu mereka sakit panjang dan kemudian meninggal dunia. Kehilangan itu membuat Pak Pung murung, dan dua anaknya merasa terlupakan. Kebun mulai terbengkalai, ikan tak banyak tertangkap, dan suasana rumah menjadi hampa. 
@@ -1605,7 +1605,7 @@ Alam dan makhluk‑air (seperti ikan) dalam cerita rakyat bukan hanya simbol, me
     },
     {
       judul: "Legenda Danau Melawen",
-      gambar: "danau_melawen.jpg",
+      gambar: "danau_melawen.jpeg",
       isi: `Di Desa Sanggu, Kabupaten Barito Selatan, Kalimantan Tengah, terdapat sebuah danau yang airnya bening dan di kelilingi pepohonan kelapa yang tegak di tepinya—orang menyebutnya Danau Melawen. 
 KaltengPos | KaltengPos Online
 +3
@@ -1667,7 +1667,7 @@ Alam punya suara—jika dengarkan, ia akan berempati dan memberi; jika diabaikan
     },
     {
       judul: "Legenda Sangumang dan Maharaja yang Sombong",
-      gambar: "Sangumang_dan_Maharaja.jpg",
+      gambar: "Sangumang_dan_Maharaja.png",
       isi: `Di sebuah desa subur bernama Rawi, di tepian hutan dan sungai di Kalimantan Tengah, hiduplah seorang pemuda bernama Sangumang. Ia terkenal sederhana, rendah hati, dan memiliki keistimewaan: ia bisa berbicara dengan binatang. 
 detikcom
 +1
@@ -1983,7 +1983,7 @@ Simbol-simbol sejarah seperti tugu ini mengingatkan kita akan jasa-jasa para pah
     },
     {
       judul: "Legenda Asung Luwan",
-      gambar: "luwan_asung.jpg",
+      gambar: "luwan_asung.webp",
       isi: `Di sebuah desa yang terletak di pinggiran hutan Kalimantan Selatan, hiduplah seorang pemuda bernama Asung Luwan. Ia dikenal oleh penduduk sekitar sebagai pemuda yang cerdas dan berani. Namun, meskipun memiliki banyak kelebihan, Asung Luwan bukanlah orang yang suka pamer. Ia lebih suka hidup sederhana bersama keluarganya dan selalu siap membantu siapa saja yang membutuhkan.
 
 Suatu hari, desanya kedatangan sekawanan binatang buas yang mengamuk dan mengancam keselamatan warga. Mereka merusak ladang, mencuri ternak, dan menakut-nakuti penduduk desa. Warga desa yang merasa ketakutan tidak tahu harus berbuat apa. Mereka sudah mengirimkan beberapa orang untuk melawan binatang-binatang itu, namun mereka semua gagal. Binatang buas itu terlalu kuat dan liar.
@@ -2091,7 +2091,7 @@ Menghormati tradisi dan leluhur adalah bagian penting dalam menjaga kedamaian ma
     },
     {
       judul: "Legenda Putri Tadampali",
-      gambar: "tadampali_putri.jpg",
+      gambar: "tadampali_putri.jpeg",
       isi: `Di sebuah kerajaan yang terletak di pesisir Sulawesi Selatan, hiduplah seorang putri cantik bernama Putri Tadampali. Putri Tadampali adalah putri tunggal dari Raja Tadampalu, penguasa yang bijaksana dan adil. Seluruh rakyat kerajaan sangat mencintai dan menghormati raja serta putrinya. Kerajaan ini dikenal makmur, dan kehidupan rakyatnya damai karena kebijakan raja yang adil.
 
 Namun, di balik kedamaian itu, ada sebuah ancaman besar yang datang dari luar kerajaan. Sebuah kerajaan tetangga yang dipimpin oleh Raja Bawakaraeng berencana untuk menaklukkan kerajaan tempat Putri Tadampali tinggal. Raja Bawakaraeng terkenal sebagai penguasa yang rakus dan haus akan kekuasaan. Ia ingin memperluas wilayah kerajaannya dengan merebut tanah yang subur dan kaya yang dikuasai oleh Raja Tadampalu.
@@ -2166,7 +2166,7 @@ Keharmonisan alam dan kehidupan manusia dapat terjalin erat jika dilandasi denga
   "Sulawesi Utara": [
     {
       judul: "Legenda Kete Panagian",
-      gambar: "panagian_kete.jpg",
+      gambar: "panagian_kete.jpeg",
       isi: `Pada zaman dahulu kala, di sebuah desa yang terletak di kaki gunung Tondano, hiduplah seorang gadis muda bernama Kate. Kate adalah seorang putri yang sangat cantik dan baik hati. Masyarakat desa sangat mengagumi kecantikan dan kebaikan hatinya, karena Kate selalu siap membantu siapa saja yang membutuhkan. Ia juga dikenal sebagai seorang gadis yang penuh semangat dan cinta terhadap alam.
 
 Di desa tersebut, ada sebuah gunung besar yang dianggap sakral oleh penduduk. Gunung tersebut dipercaya sebagai tempat tinggal roh-roh leluhur yang menjaga keseimbangan alam. Di sekitar gunung itu terdapat sebuah daerah bernama Panagian, yang artinya “tempat yang penuh berkah”. Nama ini diberikan karena tanahnya yang subur dan suasana alam yang sangat indah.
@@ -2280,7 +2280,7 @@ Legenda Batu Apeng mengajarkan kita untuk selalu menghormati nenek moyang dan ta
 "Sulawesi Tengah": [
     {
       judul: "Legenda Datu Pamona",
-      gambar: "pamona_datu.jpg",
+      gambar: "pamona_datu.webp",
       isi: `Legenda Datu Pamona adalah cerita rakyat yang sangat dihormati di Sulawesi Tengah, khususnya di daerah Pomona yang merupakan bagian dari Kabupaten Poso. Datu Pamona sendiri dianggap sebagai salah satu pemimpin besar yang memiliki pengaruh yang sangat kuat terhadap masyarakat setempat dan diwariskan dalam bentuk cerita-cerita yang mengandung nilai-nilai luhur. Legenda ini mengisahkan tentang asal-usul suku Pomona, serta bagaimana seorang pemimpin bijaksana yang dikenal dengan nama Datu Pamona muncul sebagai tokoh penting dalam sejarah mereka.
 
 Kisah Awal Datu Pamona
@@ -2321,7 +2321,7 @@ Selain itu, legenda ini juga mengingatkan kita bahwa nilai-nilai budaya dan trad
     },
     {
       judul: "Legenda Batu Bagga",
-      gambar: "bagga_batu.jpg",
+      gambar: "bagga_batu.jpeg",
       isi: `Di sebuah desa kecil yang terletak di pinggiran Danau Poso, di Sulawesi Tengah, ada sebuah batu besar yang sudah lama dianggap suci oleh penduduk setempat. Batu itu dikenal dengan nama Batu Bagga, dan cerita tentang asal-usulnya telah turun-temurun diceritakan oleh nenek moyang mereka. Batu itu berdiri tegak di tengah hutan lebat, dan konon, hanya mereka yang memiliki niat baik yang bisa menemukannya.
 
 Asal Usul Batu Bagga
@@ -2471,7 +2471,7 @@ Legenda ini mengajarkan tentang pengorbanan cinta, di mana cinta sejati bisa leb
     },
     {
       judul: "Legenda Asal Usul Danau Biru",
-      gambar: "danau_biru.jpg",
+      gambar: "danau_biru.jpeg",
       isi: `Di daerah Bombana, Sulawesi Tenggara, terdapat sebuah danau yang sangat indah dengan air yang berwarna biru kehijauan. Danau ini dikenal dengan nama Danau Biru, dan memiliki cerita legendaris yang berkaitan dengan seorang dewi laut.
 
 Pada zaman dahulu, ada seorang dewi laut yang sangat cantik dan bijaksana. Ia memerintah laut dengan penuh kebijaksanaan dan melindungi semua makhluk laut dari ancaman. Dewi ini dikenal sebagai Dewi Sorga, dan ia memiliki kekuatan untuk mengendalikan ombak dan arus laut.
@@ -2506,7 +2506,7 @@ Legenda Batu Dinding mengajarkan kita tentang kepemimpinan yang bijaksana, pengo
 "Gorontalo": [
     {
       judul: "Legenda Limboto",
-      gambar: "limboto_legen.jpg",
+      gambar: "limboto_legen.jpeg",
       isi: `Pada zaman dahulu, di sebuah kerajaan yang subur dan makmur yang terletak di sekitar daerah yang kini dikenal sebagai Limboto, terdapat seorang putri cantik bernama Putri Limboto. Putri ini sangat dihormati dan dicintai oleh seluruh rakyat, karena tidak hanya memiliki paras yang cantik, tetapi juga hati yang sangat baik dan bijaksana. Banyak pemuda dari berbagai kerajaan ingin melamar sang putri, namun Putri Limboto sudah menaruh hati pada seorang pemuda bernama Raden Bada.
 
 Raden Bada adalah seorang pemuda gagah berani yang berasal dari desa kecil di dekat kerajaan Limboto. Meskipun berasal dari keluarga sederhana, Raden Bada memiliki jiwa kepemimpinan yang besar dan keberanian yang luar biasa. Putri Limboto dan Raden Bada sering bertemu secara diam-diam, karena hubungan mereka ditentang oleh ayah Putri Limboto, Raja Limboto, yang ingin menjodohkan putrinya dengan pangeran dari kerajaan besar.
